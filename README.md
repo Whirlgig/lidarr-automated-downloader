@@ -78,27 +78,7 @@ Modify the "config" file to set your configuration settings using a text editor 
 #### Permissions
 * Enable Set Permissions
 
-## Connect Settings
 
- ### Add Custom Script
-* Settings -> Connect -> + Add -> custom Script
-
-| Parameter | Value |
-| --- | --- |
-| Name | Album Artwork Extractor |
-| On Grab | No |
-| On Release Import | Yes |
-| On Upgrade | Yes |
-| On Download Failure | No |
-| On Import Failure | No |
-| On Rename | Yes |
-| On Track Retag | Yes |
-| On Health Issue | No |
-| Tags | leave blank |
-| Path | `/path/to/artwork.bash` |
-
-This script will extract the embedded file artwork and store it in the local ablum folder
-
-# Official Docker: [lidarr-lad](https://github.com/RandomNinjaAtk/docker-lidarr-lad)
+# Official Docker: [lidarr-lad](https://github.com/Whirlgig/docker-lidarr-lad)
 * Pre-configured, no setup required, includes Lidarr
 
